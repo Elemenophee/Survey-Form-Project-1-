@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+  </head>
+  <body>
+
+<!-- Heading -->
+
+    <h1 id="title">Title for survey form.</h1>
+    <p id="description">Short description of the survey form.</p>
+    <form id="survey-form" action="" method="">
+    
+<!-- Personal Information -->
+
+      <fieldset>
+        <h2>Personal Info.</h2>
+        <label id="name-label" for="name">Name:</label><input name="name" id="name" type="text" placeholder="Enter your name" required/>
+        <label id="email-label" for="email">Email:</label><input name="name" id="email" type="email" placeholder="Enter your email" required/>
+        <label id="number-label" for="number">Age:</label><input name="age" id="number" type="number" placeholder="Enter your age" min="16" max="120" required/>
+      </fieldset>
+
+<!-- Dropdown Menu -->
+
+      <fieldset>
+        <h2>Choose One.</h2>
+        <label for="dropdown">Select a option.
+          <select name="dropdown" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">option one</option>
+            <option value="2"> option two</option>
+            <option value="3"> other</option>
+          </select>  
+        </label>
+      </fieldset>
+
+<!-- Radio Menu -->
+
+      <fieldset>
+        <h2>Select an Option.</h2>
+        <label for="option-one"><input id="option-one" type="radio" name="option-type" value="option-one" checked>Option One</label>
+        <label for="option-two"><input id="option-two" type="radio" name="option-type" value="option-one" >Option Two</label>
+      </fieldset>
+
+<!-- Checkbox -->
+
+      <fieldset>
+        <h2>Select Options.</h2>
+        <label for="one"><input id="one" type="checkbox" name="option" value="one">One</label>
+        <label for="two"><input id="two" type="checkbox" name="option" value="two">Two</label>
+        <label for="three"><input id="three" type="checkbox" name="option" value="three">Three</label>
+      </fieldset>
+
+<!-- Textarea -->
+
+      <fieldset>
+        <h2>Enter Text.</h2>
+        <label for="text">Add text to text box:</label>
+        <textarea name="text" id="text" rows="3" cols="24" placeholder="Type some information..."></textarea>
+      </fieldset>
+
+<!-- Submit -->
+
+        <input class="submit" id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
