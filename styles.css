@@ -38,7 +38,7 @@ fieldset {
   border-style: ridge;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem ;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto;
 }
 
 h2 {
