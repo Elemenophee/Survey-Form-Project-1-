@@ -1,13 +1,10 @@
 body {
-  display: flex;
-  flex-direction: column;
   background-image: url(https://wallpaperaccess.com/full/969654.jpg);
   background-size: cover;
   background-position: 43% center;
   background-attachment: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  margin: auto 0;
   color: white;
   font-family: Tahoma;
   font-size: 20px;
@@ -63,7 +60,7 @@ label {
   border-width: medium;
   border-style: ridge;
   background-color: rgba(0, 0, 0, 0.6);
-margin: 0 auto;
+  margin: 0 auto;
   padding: 0.5em;
   color: white;
   font-family: Tahoma;
